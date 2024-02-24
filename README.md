@@ -33,7 +33,9 @@ These requirements apply only to "Part 1: Create the Earthquake Visualization" a
 ## Data Points (40 points)
 - Data points scale with magnitude level (10 points)
 - Data points colors change with depth level (10 points)
+  <src="https://github.com/emilys28/leaflet-challenge/blob/dc07f9e5e57a08d1b3ff7601cd887d0fb9d01680/Images/map.png" alt="map with data points that scale with magnitude level and colors change with depth level">
 - Each point has a tooltip with the Magnitude, the location and depth (10 points)
+ <src="https://github.com/emilys28/leaflet-challenge/blob/dc07f9e5e57a08d1b3ff7601cd887d0fb9d01680/Images/tooltip.png" alt="tooltip showing magnitude, the location and depth">
 - All data points load in the correct locations (10 points)
 
 # References
