@@ -1,4 +1,8 @@
 # leaflet-challenge
+Module 15 Challenge
+
+# Author
+Emily L Sims
 
 # Instructions
 The instructions for this activity are broken into two parts:
