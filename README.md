@@ -39,5 +39,5 @@ These requirements apply only to "Part 1: Create the Earthquake Visualization" a
 - All data points load in the correct locations (10 points)
 
 # References
-Dataset created by the United States Geological Survey. <href="https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php">
+Dataset created by the United States Geological Survey https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
 
