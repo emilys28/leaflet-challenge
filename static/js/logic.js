@@ -11,7 +11,13 @@ d3.json(queryUrl).then(function (data) {
   // Give each feature a popup that describes the place and time of the earthquake.
 function createFeatures(earthquakeData) {
   function onEachFeature(feature, layer) {
-    layer.bindPopup(`<h3>${feature.properties.place}</h3><hr><p>${new Date(feature.properties.time)}</p>`);
+    // Convert timestamp to Date object
+    const eventDate = new Date(feature.properties.time);
+    
+    // Format date and time
+    const dateTimeString = eventDate.toLocaleString();
+
+    layer.bindPopup(`<h3>${feature.properties.place}</h3><hr><p>Magnitude: ${feature.properties.mag}</p><p>Depth: ${feature.geometry.coordinates[2]}</p><p>Date & Time: ${dateTimeString}</p>`);
   }
 
   // Create a GeoJSON layer containing the features array on the earthquakeData object
